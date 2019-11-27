@@ -40,7 +40,7 @@ header {
   background-color : rgba(255,255,255,0.3);
 }
 
-.login:hover {
+.login a :hover {
   background-color : rgba(255,255,255,0.5);
 }
 
