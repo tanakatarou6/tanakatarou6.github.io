@@ -162,10 +162,6 @@ h2 , h3 {
   margin-top : 20px;
 }
 
-.message :hover {
-  opacity : 1;
-}
-
 .message :active {
   box-shadow : none;
   position : relative;
