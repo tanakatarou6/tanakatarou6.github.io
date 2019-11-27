@@ -40,16 +40,16 @@ header {
   background-color : rgba(255,255,255,0.3);
 }
 
-.login a :hover {
-  background-color : rgba(255,255,255,0.5);
-}
-
 .login a {
   display : block;
   line-height : 65px;
   padding : 0 25px;
   color : #fff;
   transition : all 0.5s;
+}
+
+.login a :hover {
+  background-color : rgba(255,255,255,0.5);
 }
 
 .top-wrapper {
@@ -86,7 +86,7 @@ header {
   border-radius : 4px;
 }
 
-.btn a:hover {
+.btn :hover {
   opacity : 1;
 }
 
