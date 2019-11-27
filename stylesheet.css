@@ -53,7 +53,7 @@ header {
 }
 
 .top-wrapper {
-  background-image : URL("images/top.png");
+  background-image : URL("top.png");
   background-size : cover;
   padding : 180px 0 100px 0;
   color : #fff;
