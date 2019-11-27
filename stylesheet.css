@@ -38,7 +38,6 @@ header {
 .login {
   float : right;
   background-color : rgba(255,255,255,0.3);
-  transition : all 0.5s;
 }
 
 .login:hover {
@@ -50,6 +49,7 @@ header {
   line-height : 65px;
   padding : 0 25px;
   color : #fff;
+  transition : all 0.5s;
 }
 
 .top-wrapper {
