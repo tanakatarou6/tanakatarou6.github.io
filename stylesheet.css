@@ -160,6 +160,7 @@ h2 , h3 {
   box-shadow: 0 7px #1a7940;
   padding : 15px 40px;
   margin-top : 20px;
+  cursor : pointer;
 }
 
 .message:active {
