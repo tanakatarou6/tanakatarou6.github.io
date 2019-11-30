@@ -162,7 +162,7 @@ h2 , h3 {
   margin-top : 20px;
 }
 
-.message :active {
+.message:active {
   box-shadow : none;
   position : relative;
   top : 7px;
