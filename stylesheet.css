@@ -16,6 +16,7 @@ header {
   justify-content: space-between;
   line-height : 100px;
   align-items : center;
+  position : fixed;
 }
 
 .header-nav ul {
