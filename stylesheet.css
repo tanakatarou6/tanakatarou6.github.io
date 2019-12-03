@@ -1,184 +1,21 @@
-html, body,
-ul, ol, li,
-h1, h2, h3, h4, h5, h6, p, div {
-  margin: 0;
-  padding: 0;
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
 }
-
-body {
-  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
-}
-
-li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-.container {
-  width : 1170px;
-  margin : 0 auto;
-}
-
-header {
-  background-color : rgba(34,49,52,0.9);
-  height : 65px;
-  width : 100%;
-  position : fixed;
-  z-index : 10;
-}
-
-.header-logo img {
-  width : 124px;
-  float : left;
-  margin-top : 20px;
-}
-
-.login {
-  float : right;
-  background-color : rgba(255,255,255,0.3);
-}
-
-.login :hover {
-  background-color : rgba(255,255,255,0.5);
-  transition : all 0.5s;
-}
-
-.login a {
-  display : block;
-  line-height : 65px;
-  padding : 0 25px;
-  color : #fff;
-}
-
-.top-wrapper {
-  background-image : URL("images/top.png");
-  background-size : cover;
-  padding : 180px 0 100px 0;
-  color : #fff;
-  text-align : center;
-}
-
-.top-wrapper h1 {
-  font-size : 45px;
-  opacity : 0.7;
-  letter-spacing : 5px;
-}
-
-.top-wrapper p {
-  opacity : 0.7;
-}
-
-.btn-wrapper {
-  margin-top : 30px;
-}
-
-.btn-wrapper p {
-  margin : 15px 0;
-}
-
-.btn {
-  color : #fff;
-  display : inline-block;
-  padding : 8px 24px;
-  opacity : 0.8;
-  border-radius : 4px;
-}
-
-.btn:hover {
-  opacity : 1.0;
-}
-
-.signup {
-  background : #239b76;
-}
-
-.facebook {
-  background : #3b5998;
-  margin-right : 10px;
-}
-
-.twitter {
-  background : #55acee;
-}
-
-.fa {
-  margin-right : 5px;
-}
-
-.lesson-wrapper {
-  background-color : #f7f7f7;
-  height : 500px;
-  text-align : center;
-  padding : 50px 0;
-}
-
-h2 , h3 {
-  font-weight : normal;
-  color: #5f5d60;
-}
-
-.lessons {
-  margin-top : 50px;
-}
-
-.lesson {
-  float : left;
-  width : 25%;
-}
-
-.lesson-icon {
-  position : relative;
-}
-
-.lesson-icon p {
-  position : absolute;
-  top : 90px;
-  width : 100%;
-  color : #fff;
-}
-
-.txt {
-  margin-top : 15px;
-  color : #b3aeb5;
-  width : 80%;
-  display : inline-block;
-}
-
-.message-wrapper {
-  text-align : center;
-  padding : 50px 0 80px 0;
-}
-
-.heading {
-  color: #5f5d60;
-}
-
-.message {
-  background-color : #5dca88;
-  box-shadow: 0 7px #1a7940;
-  padding : 15px 40px;
-  margin-top : 20px;
-  cursor : pointer;
-}
-
-.message:active {
-  box-shadow : none;
-  position : relative;
-  top : 7px;
-}
-
-footer {
-  border-top : 1px solid #dee7ec;
-  padding-top : 30px;
-}
-
-footer img {
-  width : 124px;
-}
-
-footer p {
-  font-size : 12px;
-  color: #b3aeb5;
-}
+/*ここまでリセットCSSの記述*/
