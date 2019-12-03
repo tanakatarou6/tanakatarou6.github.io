@@ -41,3 +41,22 @@ header li {
   object-fit : cover;
   margin-left : 30%;
 }
+
+.top-wrapper h2 {
+  position : absolute;
+  top : 30%;
+  left : 30%;
+  background : rgba(255, 255, 255, 0.6);
+  font-size : 3rem;
+  padding : 1rem;
+}
+
+.bg1 {
+  background : #e8e7e7;
+  height : 700px;
+  width : 45%;
+  position : absolute;
+  top : -18px;
+  left : 0;
+  z-index : -10;
+}
