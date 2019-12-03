@@ -8,6 +8,7 @@ body {
 }
 header {
   width : 100%;
+  background-color : #eee;
 }
 
 .header-nav {
@@ -21,4 +22,8 @@ header {
   display : flex;
   justify-content : space-between;
   align-items : center;
+}
+
+.header li {
+  margin-right : 50px;
 }
