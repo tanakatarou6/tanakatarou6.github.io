@@ -1,3 +1,24 @@
 body {
-  font-family: "Hiragino Kaku Gothic Pro",Osaka,"メイリオ","ＭＳ Ｐゴシック","MS PGothic",Verdana,Arial,sans-serif;
+  font-family : "Hiragino Kaku Gothic Pro",Osaka,"メイリオ","ＭＳ Ｐゴシック","MS PGothic",Verdana,Arial,sans-serif;
+}
+
+.container {
+  width : 1170px;
+  margin : 0 auto;
+}
+header {
+  width : 100%;
+}
+
+.header-nav {
+  display : flex;
+  justify-content: space-between;
+  line-height : 100px;
+  align-items : center;
+}
+
+.header-nav ul {
+  display : flex;
+  justify-content : space-between;
+  align-items : center;
 }
