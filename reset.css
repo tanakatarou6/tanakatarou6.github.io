@@ -19,7 +19,7 @@ time, mark, audio, video {
     background : transparent;
 }
 
-ul, ul, {
+ul, ul, li {
   list-style : none;
   list-style-type : none;
 }
