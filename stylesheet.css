@@ -28,3 +28,15 @@ header li {
   margin-right : 50px;
   font-size : 15px;
 }
+
+.top-wrapper {
+  position : relative;
+  height : 600px;
+}
+
+.top-wrapper img {
+  width : 80%;
+  height : 500px;
+  object-fit : cover;
+  margin : 30%;
+}
