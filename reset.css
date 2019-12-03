@@ -19,11 +19,12 @@ time, mark, audio, video {
     background : transparent;
 }
 
-ul, ul, li {
+ul, li, dl, dt, dd {
   list-style : none;
   list-style-type : none;
 }
 
 a {
   text-decoration : none;
+  color : #000;
 }
