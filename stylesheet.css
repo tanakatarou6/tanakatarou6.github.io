@@ -24,7 +24,7 @@ header {
   align-items : center;
 }
 
-.header li {
+.header a {
   margin-right : 150px;
   font-size : 36px;
 }
