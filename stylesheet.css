@@ -16,7 +16,6 @@ header {
   justify-content: space-between;
   line-height : 100px;
   align-items : center;
-  position : fixed;
 }
 
 .header-nav ul {
@@ -47,13 +46,13 @@ header li {
   top : 30%;
   left : 30%;
   background : rgba(255, 255, 255, 0.6);
-  font-size : 3rem;
+  font-size : 2.5rem;
   padding : 1rem;
 }
 
 .bg1 {
   background : #e8e7e7;
-  height : 700px;
+  height : 600px;
   width : 45%;
   position : absolute;
   top : -18px;
