@@ -149,3 +149,59 @@ header li {
   border-bottom : dotted 1px #dedede;
   padding : 20px 0;
 }
+
+.contact {
+  position : relative;
+}
+
+.contact img {
+  width : 80%;
+  height : 400px;
+  margin-right : 20%;
+  object-fit : cover;
+}
+
+.contact h2 a {
+  position : absolute;
+  top : 45%;
+  right : 50%;
+  width : 250px;
+  height : 60px;
+  background-color : rgba(255,255,255,0.7);
+  line-height : 60px;
+  text-align : center;
+  border-radius : 8px;
+}
+
+.contact h2 a:hover {
+  background-color : rgba(255,255,255,0.9);
+  transition : 0.3s;
+}
+
+.bg2 {
+  background : #e8e7e7;
+  height : 400px;
+  width : 45%;
+  position : absolute;
+  top : -20%;
+  right : 0;
+  z-index : -10;
+}
+
+footer {
+  margin-top : 100px;
+}
+
+.footer-left {
+  float : left;
+}
+
+.footer-right {
+  float : right;
+  margin-top : 50px;
+}
+
+.footer-right li {
+  float : left;
+  margin-right : 25px;
+}
