@@ -189,7 +189,11 @@ header li {
 }
 
 footer {
-  margin-top : 100px;
+  margin-top : 150px;
+}
+
+.footer-menu {
+  overflow : hidden;
 }
 
 .footer-left {
@@ -204,4 +208,13 @@ footer {
 .footer-right li {
   float : left;
   margin-right : 25px;
+}
+
+.footer-bottom {
+  text-align : center;
+  font-size : 0.75rem;
+  width : 100%;
+  margin-top : 50px;
+  padding : 30px 0 50px 0;
+  background-color : #e8e8e8;
 }
