@@ -3,8 +3,153 @@
   margin : 0 auto;
 }
 
+
+header {
+  width : 100%;
+  background-color : #fff;
+  border-bottom : 1px solid #eee;
+  position : fixed;
+  z-index : 10;
+}
+
 header .container {
+  height : 80px;
   display : flex;
   justify-content : space-between;
   align-items : center;
+}
+
+header ul {
+  display : flex;
+  justify-content : space-between;
+  align-items : center;
+}
+
+header a {
+  display : inline-block;
+  line-height : 80px;
+  padding : 0 25px;
+}
+
+header a:hover {
+  background-color: rgba(0,0,0,0.1);
+  transition : 0.8s;
+}
+
+.top-wrapper {
+  width : 100%;
+  padding-top : 80px;
+  height : 600px;
+  position : relative;
+}
+
+.top-wrapper h1 {
+  position : absolute;
+  top : 40%;
+  left : 25%;
+  font-size : 3rem;
+  background-color : rgba(255,255,255,0.6);
+  padding : 1.5rem;
+}
+
+.top-wrapper img {
+  width : 70%;
+  height : 500px;
+  object-fit : cover;
+  margin-left : 30%;
+}
+
+.top-wrapper::after {
+  content :'';
+  background-color : rgba(200,200,200,1);
+  position : absolute;
+  width : 40%;
+  height : 600px;
+  top : 80px;
+  left : 0;
+  z-index : -1;
+}
+
+.main-wrapper {
+  height : 600px;
+  margin-top : 100px;
+}
+
+.main-wrapper .contents {
+  display : flex;
+  justify-content : space-between;
+  width : 100%;
+  margin : 0 auto;
+}
+
+.main-wrapper img {
+  width : 50%;
+}
+
+.content {
+  width : 48%;
+}
+
+.main-wrapper h2 {
+  font-size : 1.5rem;
+  margin-bottom : 50px;
+  text-align : center;
+}
+
+.work-wrapper {
+  width : 100%;
+  background-color : #eee;
+  padding : 50px 0;
+}
+
+.work-wrapper h2 {
+  text-align : center;
+  font-size : 2rem;
+  margin-bottom : 50px;
+}
+
+.work-wrapper h3 {
+  margin : 20px 0;
+}
+
+.works {
+  display : flex;
+  justify-content : space-between;
+  align-items : center;
+  width : 100%;
+  margin : 0 auto;
+}
+
+.work {
+  width : 100%;
+  text-align : center;
+}
+.work-txt {
+  width : 80%;
+  margin : 0 auto;
+}
+
+.news-wrapper {
+  width : 100%;
+  margin : 0 auto;
+  margin : 80px 0;
+}
+
+.news-wrapper .container {
+  width : 1000px;
+}
+
+.news-wrapper h2 {
+  font-size : 2rem;
+  margin-bottom : 50px;
+  text-align : center;
+}
+
+.news-wrapper li {
+  padding : 10px 0;
+  border-bottom : 1px solid #eee;
+}
+
+.news-wrapper time {
+  margin-right : 20px;
 }
