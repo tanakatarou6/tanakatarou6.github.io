@@ -180,7 +180,6 @@ header a:hover {
   text-align : center;
   background-color : rgba(225,225,225,0.8);
   border-radius : 5px;
-  box-shadow : 0 7px rgba(200,200,200,0.8);
 }
 
 .contact-wrapper::after {
